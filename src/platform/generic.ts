@@ -12,7 +12,7 @@ export default class GenericConfig implements Provider {
   token = process.env.NEXT_PUBLIC_AXIOM_TOKEN || process.env.AXIOM_TOKEN;
   dataset = process.env.NEXT_PUBLIC_AXIOM_DATASET || process.env.AXIOM_DATASET;
   environment: string = process.env.NODE_ENV;
-  axiomUrl = process.env.NEXT_PUBLIC_AXIOM_URL || process.env.AXIOM_URL || 'https://api.axiom.co';
+  axiomUrl = process.env.NEXT_PUBLIC_AXIOM_URL || process.env.AXIOM_URL || 'https://api.eu.axiom.co';
   region = process.env.REGION || undefined;
 
   isEnvVarsSet(): boolean {
